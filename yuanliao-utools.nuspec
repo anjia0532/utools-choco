@@ -38,39 +38,19 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>anjia0532</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://github.com/anjia0532/utools-choco</projectUrl>
-    <iconUrl>https://u.tools/favicon.ico</iconUrl>
+    <packageSourceUrl>https://github.com/anjia0532/utools-choco</packageSourceUrl>
+    <iconUrl>https://raw.githubusercontent.com/anjia0532/utools-choco/main/utools.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
     <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
-    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
-    <!--<mailingListUrl></mailingListUrl>-->
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>utools,launcher,wox,Alfred,yuanliao,utools</tags>
+    <projectSourceUrl>https://github.com/anjia0532/utools-choco</projectSourceUrl>
+    <docsUrl>https://u.tools/docs/guide/about-uTools.html</docsUrl>
+    <!-- <mailingListUrl>anjia0532@gmail.com</mailingListUrl> -->
+    <bugTrackerUrl>https://github.com/anjia0532/utools-choco/issues/new</bugTrackerUrl>
+    <tags>utools launcher wox Alfred yuanliao utools</tags>
     <summary>A launcher for Windows</summary>
     <description>utools is a launcher for Windows, which was inspired by Alfred and Launchy. Wox provide an entry to search everything you want. </description>
-    <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
-    <!-- =============================== -->      
-
-    <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
-    <!--<dependencies>
-      <dependency id="" version="__MINIMUM_VERSION__" />
-      <dependency id="" version="[__EXACT_VERSION__]" />
-      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_INCLUSIVE]" />
-      <dependency id="" version="[_MIN_VERSION_INCLUSIVE, MAX_VERSION_EXCLUSIVE)" />
-      <dependency id="" />
-      <dependency id="chocolatey-core.extension" version="1.1.0" />
-    </dependencies>-->
-    <!-- chocolatey-core.extension - https://chocolatey.org/packages/chocolatey-core.extension
-         - You want to use Get-UninstallRegistryKey on less than 0.9.10 (in chocolateyUninstall.ps1)
-         - You want to use Get-PackageParameters and on less than 0.11.0
-         - You want to take advantage of other functions in the core community maintainer's team extension package
-    -->
-
-    <!--<provides>NOT YET IMPLEMENTED</provides>-->
-    <!--<conflicts>NOT YET IMPLEMENTED</conflicts>-->
-    <!--<replaces>NOT YET IMPLEMENTED</replaces>-->
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
