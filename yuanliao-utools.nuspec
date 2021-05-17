@@ -6,8 +6,8 @@
     <title>yuanliao utools (Install)</title>
     <authors>anjia0532</authors>
     <owners>anjia0532</owners>
-    <projectSourceUrl>https://u.tools/</projectSourceUrl>
-    <projectUrl>https://github.com/anjia0532/utools-choco</projectUrl>
+    <projectSourceUrl>https://github.com/anjia0532/utools-choco</projectSourceUrl>
+    <projectUrl>https://u.tools/</projectUrl>
     <licenseUrl>https://u.tools/docs/guide/faq.html#utools-%E4%BC%9A%E6%94%B6%E8%B4%B9%E5%90%97</licenseUrl>
     <iconUrl>https://raw.githubusercontent.com/anjia0532/utools-choco/main/utools.png</iconUrl>
     <docsUrl>https://u.tools/docs/guide/about-uTools.html</docsUrl>
