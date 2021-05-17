@@ -6,12 +6,22 @@
     <title>yuanliao utools (Install)</title>
     <authors>anjia0532</authors>
     <owners>anjia0532</owners>
+    <projectSourceUrl>https://u.tools/</projectSourceUrl>
     <projectUrl>https://github.com/anjia0532/utools-choco</projectUrl>
     <licenseUrl>https://u.tools/docs/guide/faq.html#utools-%E4%BC%9A%E6%94%B6%E8%B4%B9%E5%90%97</licenseUrl>
     <iconUrl>https://raw.githubusercontent.com/anjia0532/utools-choco/main/utools.png</iconUrl>
     <docsUrl>https://u.tools/docs/guide/about-uTools.html</docsUrl>
     <!-- <mailingListUrl>anjia0532@gmail.com</mailingListUrl> -->
     <bugTrackerUrl>https://github.com/anjia0532/utools-choco/issues/new</bugTrackerUrl>
+    <releaseNotes>
+     ### V1.3.5 版本更新说明
+     - 超级面板弹出增加鼠标 侧键 支持
+     - Linux 高分辨率缩放比例下 解决 超级面板、取色 窗口位置问题
+     - 增加API getUser
+     - 优化API createBrowserWindow 增加回调
+     - 其他优化及 bug 修复
+     - 发布新插件 Markdown 笔记「极佳的 Markdown 编辑体验，实时预览、存储」
+    </releaseNotes>
     <tags>utools launcher wox Alfred yuanliao</tags>
     <summary>A launcher for Windows</summary>
     <description>utools is a launcher for Windows, which was inspired by Alfred and Launchy. Wox provide an entry to search everything you want. </description>
